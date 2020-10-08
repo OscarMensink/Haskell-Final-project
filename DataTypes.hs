@@ -1,7 +1,14 @@
-module DataTypes where
 
 
-data Object :: (Pos,Hitbox,Picture)
+data Player = Player {
+    body   :: Hitbox, 
+    weapons :: Weapons
 
-data Picture :: uknowntest
+}
 
+class Update a where
+     update :: a -> a 
+
+instance Update Player where
+    update = undefined
+    
