@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "C:\\Users\\mensi\\Documents\\Haskell_projects\\Haskell-Final-project\\.stack-work\\install\\1d212074\\bin"
-libdir     = "C:\\Users\\mensi\\Documents\\Haskell_projects\\Haskell-Final-project\\.stack-work\\install\\1d212074\\lib\\x86_64-windows-ghc-8.6.5\\gloss-counter-0.1.0.0-AZJn2Fw613G5GpcUNu5vY2-gloss-counter"
-dynlibdir  = "C:\\Users\\mensi\\Documents\\Haskell_projects\\Haskell-Final-project\\.stack-work\\install\\1d212074\\lib\\x86_64-windows-ghc-8.6.5"
-datadir    = "C:\\Users\\mensi\\Documents\\Haskell_projects\\Haskell-Final-project\\.stack-work\\install\\1d212074\\share\\x86_64-windows-ghc-8.6.5\\gloss-counter-0.1.0.0"
-libexecdir = "C:\\Users\\mensi\\Documents\\Haskell_projects\\Haskell-Final-project\\.stack-work\\install\\1d212074\\libexec\\x86_64-windows-ghc-8.6.5\\gloss-counter-0.1.0.0"
-sysconfdir = "C:\\Users\\mensi\\Documents\\Haskell_projects\\Haskell-Final-project\\.stack-work\\install\\1d212074\\etc"
+bindir     = "C:\\Users\\mensi\\OneDrive\\Documents\\Utrecht_Universiteit\\Sub9_Sem5_Yr20_Functional_Programing\\Haskell Final project\\.stack-work\\install\\1d212074\\bin"
+libdir     = "C:\\Users\\mensi\\OneDrive\\Documents\\Utrecht_Universiteit\\Sub9_Sem5_Yr20_Functional_Programing\\Haskell Final project\\.stack-work\\install\\1d212074\\lib\\x86_64-windows-ghc-8.6.5\\gloss-counter-0.1.0.0-AZJn2Fw613G5GpcUNu5vY2-gloss-counter"
+dynlibdir  = "C:\\Users\\mensi\\OneDrive\\Documents\\Utrecht_Universiteit\\Sub9_Sem5_Yr20_Functional_Programing\\Haskell Final project\\.stack-work\\install\\1d212074\\lib\\x86_64-windows-ghc-8.6.5"
+datadir    = "C:\\Users\\mensi\\OneDrive\\Documents\\Utrecht_Universiteit\\Sub9_Sem5_Yr20_Functional_Programing\\Haskell Final project\\.stack-work\\install\\1d212074\\share\\x86_64-windows-ghc-8.6.5\\gloss-counter-0.1.0.0"
+libexecdir = "C:\\Users\\mensi\\OneDrive\\Documents\\Utrecht_Universiteit\\Sub9_Sem5_Yr20_Functional_Programing\\Haskell Final project\\.stack-work\\install\\1d212074\\libexec\\x86_64-windows-ghc-8.6.5\\gloss-counter-0.1.0.0"
+sysconfdir = "C:\\Users\\mensi\\OneDrive\\Documents\\Utrecht_Universiteit\\Sub9_Sem5_Yr20_Functional_Programing\\Haskell Final project\\.stack-work\\install\\1d212074\\etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "gloss_counter_bindir") (\_ -> return bindir)
