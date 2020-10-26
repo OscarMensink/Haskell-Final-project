@@ -1,20 +1,22 @@
-C:\Users\mensi\Documents\Haskell_projects\gloss-counter\src\Controller.hs:
-  hash: d8068c77eca65786ceb0b71a11832ed9d37e0bc27e34de2987f8568fe7863d75
-  size: 995
-  modtime: 1602070364
-C:\Users\mensi\Documents\Haskell_projects\gloss-counter\src\View.hs:
-  hash: 14802373f7adeddd7c0a17b6a49dc31589e44ee442eb1dfedc2b876827fbea19
-  size: 375
-  modtime: 1602070364
-C:\Users\mensi\Documents\Haskell_projects\gloss-counter\src\Model.hs:
-  hash: 417cb1a9e590aebaebccd57290e38839ebf1a4bfee5fabbcb5939fc318b97b92
-  size: 462
-  modtime: 1602070363
-C:\Users\mensi\Documents\Haskell_projects\gloss-counter\gloss-counter.cabal:
-  hash: 590a8749ea112509db6989101eb8d2cdb0eaf3af57fc3bc42facfffbd3521e73
-  size: 474
-  modtime: 1602070363
-C:\Users\mensi\Documents\Haskell_projects\gloss-counter\src\Main.hs:
-  hash: acd3bd897ad35fed603a738df6be3d3936218f73f3337e9fecfee665d2ee8cc3
-  size: 483
-  modtime: 1602070364
+C:\Users\mensi\OneDrive\Documents\Utrecht_Universiteit\Sub9_Sem5_Yr20_Functional_Programing\Haskell Final project\src\View.hs:
+  hash: 28daeccc852de0f597477640ef1c145f6085d548dfb04ae17e386d04fc026581
+  size: 411
+  modtime: 1602515726
+C:\Users\mensi\OneDrive\Documents\Utrecht_Universiteit\Sub9_Sem5_Yr20_Functional_Programing\Haskell Final project\src\Model.hs:
+  hash: ca647d67bd6bacfab5d228b1f98241687dda1838e87d68aa3ddcb94076f810fe
+  size: 439
+  modtime: 1602515726
+? C:\Users\mensi\OneDrive\Documents\Utrecht_Universiteit\Sub9_Sem5_Yr20_Functional_Programing\Haskell
+  Final project\src\Controller.hs
+: hash: 39d4af10d8a10749e3f4ebe788c881e28d72cd0b0990f86cdc0b0afddc0dce2a
+  size: 1074
+  modtime: 1602515726
+C:\Users\mensi\OneDrive\Documents\Utrecht_Universiteit\Sub9_Sem5_Yr20_Functional_Programing\Haskell Final project\src\Main.hs:
+  hash: 74d4664c7f4c56fe852235ec5058e6b10f62dbee60e2a7914ab8eb6cc9525e28
+  size: 498
+  modtime: 1602244120
+? C:\Users\mensi\OneDrive\Documents\Utrecht_Universiteit\Sub9_Sem5_Yr20_Functional_Programing\Haskell
+  Final project\gloss-counter.cabal
+: hash: 96cb174f2329b77a181a178f214f888e05c2b014f094005227601dc244b10494
+  size: 489
+  modtime: 1602244120
