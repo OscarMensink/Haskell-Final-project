@@ -73,14 +73,14 @@ data PlWeapon = PlWeaponCon
   } deriving (Show)
 
 newtype FromEnemyProjectile = FromEnemyProjectile {fepMoveable :: Movable} deriving (Show)
-standardProjectile :: FromEnemyProjectile {fepMoveable = Movable
-    { hitbox = Hitbox
-                { position = (50, 50),
-                  size = (5.0, 5.0)
-                },
-      direction = (-2.0, 0),
-      hitpoints = 1
-    }}
+--standardProjectile :: FromEnemyProjectile {fepMoveable = Movable
+--    { hitbox = Hitbox
+--                { position = (50, 50),
+--                  size = (5.0, 5.0)
+ --               },
+ --     direction = (-2.0, 0),
+ --     hitpoints = 1
+ --   }}
 newtype FromPlayerProjectile = FromPlayerProjectile {fpMovable :: Movable} deriving (Show)
 
 type RateOfFire = Float
@@ -100,13 +100,13 @@ standardEnemyMovable =
       hitpoints = 1
     }
 
-standardEnemyWeapon :: EnWeapon
-standardEnemyWeapon =
-  EnWeaponCon
-    { eprojectile = , --fuuucckkk
-      erateOfFire = 1,
-      edirection = (-1.0, 0.0)
-    }
+--standardEnemyWeapon :: EnWeapon
+--standardEnemyWeapon =
+--  EnWeaponCon
+--    { eprojectile = , --fuuucckkk
+--      erateOfFire = 1,
+ --     edirection = (-1.0, 0.0)
+--    }
 
 class Movement a where
   movement :: a -> pos -> pos
